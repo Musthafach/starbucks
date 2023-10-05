@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: SoDoSans_Light, Helvetica, sans-serif !important;
+}
+
+.main-header {
+    /*padding-left: 120px;
+    padding-right: 120px;*/
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    border-bottom: 3px solid rgb(197, 197, 197);
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.search-form{
+    height: 35px;
+    width: 265px;
+    border: 1px solid #979797;
+    border-radius: 50px;
+}
+.search-text{
+    width: 200px;
+    border: 0;
+
+}
+
+
+.rewards {
+    /*padding-left: 120px;
+    padding-right: 120px;*/
+    height: 80px;
+    width: 100%;
+    background-color: #1e3932;
+}
+
+.rewards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reward-text {
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+.more-btn {
+    height: 35px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #1e3932;
+    color: #ffffff;
+
+}
+
+.crafred-sections {
+    background-color: #ffffff;
+    width: 100%;
+    height: 300px;
+}
+
+.crafted-text {
+    /*padding-left: 130px;
+    padding-right: 120px;*/
+    padding-top: 25px;
+    height: 70px;
+    background-color: #ffffff;
+    color: #1e3932;
+}
+
+.crafted-images {
+    /*padding-left: 120px;
+    padding-right: 120px;*/
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.crafted {
+    height: 110px;
+    width: 110px;
+}
+
+.crafted:hover {
+    border: 2px solid #1e3932;
+
+}
+
+.image-1 {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.image-2 {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.image-3 {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.image-4 {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.image-5 {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.image-6 {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+/*.crafted-main-sections{
+    height: 300px;
+    width: 100%;
+    background-color: #2edf4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.caption{
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.quick-order-section{
+    height: 300px;
+    width: 100%;
+    background-color: #2edf4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick-order{
+    height: 200px;
+    width: 1100px;
+    background-color: #df2e2e;
+    
+}
+
+
+.offer-section{
+    height: 430px;
+    width: 100%;
+    background-color: #d0ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-section-heading{
+    height: 50px;
+    width: 100%;
+    background-color: #d92edf;
+}
+
+.latest-offer{
+    height: 350px;
+    width: 1100px;
+    background-color: #df2e5a;
+    display: flex;
+}
+.offer-1{ background-color: #1e3932; flex-grow: 1;}
+.offer-2{ background-color: #1ef3ba; flex-grow: 1;}
+.offer-3{ background-color: #1b94cc; flex-grow: 1;}
+
+
+
+
